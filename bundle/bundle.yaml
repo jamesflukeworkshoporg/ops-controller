@@ -1,0 +1,11 @@
+apiVersion: "1"
+version: "1"
+id: "jamesflukeworkshoporg-ops-controller"
+description: "CloudBees CI configuration bundle for the jamesflukeworkshoporg ops-controller Controller"
+availabilityPattern: "cloudbees-ci-casc-workshop/jamesflukeworkshoporg/ops-controller"
+jcasc:
+  - "jenkins.yaml"
+plugins:
+  - "plugins.yaml"
+items:
+  - "items.yaml"
